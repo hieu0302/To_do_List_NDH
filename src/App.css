@@ -1,0 +1,90 @@
+* {
+ 
+  background-color: antiquewhite;
+}
+
+.menu{
+  padding: 10% 5%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  font-family: 'Quicksand', sans-serif;
+  gap: 50px;
+
+}
+.menu .header_input {
+  display: flex;
+ justify-content: center;
+ gap: 20px;
+
+ 
+}
+
+.menu .header_input input{
+  border: none;
+  border-bottom: gray 1px solid;
+  outline: none;
+  height: 50px;
+  width: 400px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: antiquewhite;
+  font-size: 30px;
+}
+
+.menu .task{
+  padding: 0 30%;
+}
+
+.menu .header_input button{
+  /* background-color: white;
+  outline: none;
+  border-radius: 7px;
+  border: 1px gray solid;
+   */
+
+   align-items: center;
+   background-color: rgba(240, 240, 240, 0.26);
+   border: 1px solid #DFDFDF;
+   border-radius: 16px;
+   box-sizing: border-box;
+   color: #000000;
+   cursor: pointer;
+   display: flex;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 18px;
+   justify-content: center;
+   line-height: 28px;
+   max-width: 100%;
+   padding: 14px 22px;
+   text-decoration: none;
+   transition: all .2s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   width: 10%;
+}
+
+
+
+/* CSS */
+
+
+.menu .header_input button:active,
+.menu .header_input button:hover {
+  outline: 0;
+}
+
+.menu .header_input button:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+
+
+.menu .footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
